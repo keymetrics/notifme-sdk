@@ -14,7 +14,6 @@
     "dev": "nodemon -e js -r babel-register examples/with-notification-catcher.js",
     "lint": "yarn run flow && standard",
     "run-catcher": "notification-catcher",
-    "prepublish": "yarn run build",
     "size": "echo 'Notif.me build size:' && du -hs lib/ && cost-of-modules --yarn",
     "test": "yarn run lint && yarn run testonly",
     "testonly": "jest"
